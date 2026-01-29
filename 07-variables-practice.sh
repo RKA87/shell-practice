@@ -18,4 +18,11 @@ echo "Test Check dynamically enter the values as a arguments while executing the
 echo "Finally Data Output as expected with $PERSON3 and $PERSON4"
 
 
+# New Scenario, need to enter the dynamic input and it should be display using read command.
+
+echo "Please enter the name of Person 5:"
+read PERSON5
+
+echo "Given Input Username is:$PERSON5"
+
 
