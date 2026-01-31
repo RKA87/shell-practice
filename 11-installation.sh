@@ -9,4 +9,10 @@ fi
 
 echo "Installing Nginx web server"
 dnf install nginx -y
-echo "Installed Nginx web server"
+
+if [ $? -ne 0 ]; then #when you are using $? make sure that above line or code is must be a commmand executed in terminal
+    echo "Nginx installation failed"
+    exit 1
+else
+    echo "Nginx installed successfully"
+fi
