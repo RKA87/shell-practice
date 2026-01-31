@@ -8,5 +8,5 @@ if [$NUM -gt 20]; then
   elif [$NUM -lt 20]; then
   echo "The number is less than 20."
   else
-  echo "Invalid number."
+  echo "It is Invalid number."
   fi
