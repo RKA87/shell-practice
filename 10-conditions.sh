@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# -gt -> greater than
+# -eq -> equal to
+# -lt -> less than
+# -ne -> not equal to
 
 NUM=$1
 
