@@ -5,7 +5,7 @@ filepath=$1
 log_file_print(){
   while read line; do
     echo $line
-  done < $filepath
+  done <<<$filepath
 }
 
 
