@@ -1,12 +1,5 @@
 #!/bin/bash
 
-filepath=$1
+directory_path=$("/home/ec2-user/shell-practice")
 
-log_file_print(){
-  while read line; do
-    echo $line
-  done <<<$filepath
-}
-
-
-log_file_print "/home/ec2-user/shellscript-roboshop"
+echo $directory_path
