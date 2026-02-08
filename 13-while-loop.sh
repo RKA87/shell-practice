@@ -24,4 +24,4 @@ directory_path_log() {
     done
 }
 
-directory_path_log "/home/ec2-user/shell-practice/*"
+directory_path_log "/home/ec2-user/shell-practice"
