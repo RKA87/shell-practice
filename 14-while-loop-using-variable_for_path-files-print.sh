@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_DIR_VARIABLE=$(find $1 -name "*.sh" )
+LOG_DIR_VARIABLE=$(find "/home/ec2-user/shell-practice/" -name "*.sh" )
 
 #/home/ec2-user/shell-practice/
 
