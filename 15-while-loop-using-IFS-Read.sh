@@ -1,8 +1,8 @@
 #!/bin/bash
+LOG_DIR=$1
+FILES_FROM_DIR=$(find $LOG_DIR/* -name "*.sh")
 
-FILES_FROM_DIR=$(find $1/* -name "*.sh")
-
-echo "Files from Directory: $FILES_FROM_DIR"
+echo "Files loaded into variable"
 
 while IFS= read -r file; do
     echo "Each FileName: $file"
