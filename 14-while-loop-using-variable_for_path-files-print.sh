@@ -8,7 +8,3 @@ function_check(){
 
 
 function_check "/home/ec2-user/shell-practice"
-
-
-
-
